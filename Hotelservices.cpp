@@ -59,6 +59,8 @@ using namespace std;
 
     room2.roominfo();
 
+    cout << endl;
+
     return 0;
     }
    
