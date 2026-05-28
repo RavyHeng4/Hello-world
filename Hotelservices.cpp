@@ -20,7 +20,7 @@ using namespace std;
     roomnumber = 0;
     roomstatus= "Available";
     roomtype="One-Bed Room";
-    isClean = true;
+    isClean = false;
     }
 
     Hotelservices::Hotelservices(int roomnum, string status, string type, bool clean){
@@ -59,7 +59,6 @@ using namespace std;
 
     room2.roominfo();
 
-    cout << endl;
 
     return 0;
     }
