@@ -18,7 +18,7 @@ using namespace std;
     
     Hotelservices::Hotelservices(){
     roomnumber = 0;
-    roomstatus= "Available";
+    roomstatus= "not available";
     roomtype="One-Bed Room";
     isClean = true;
     }
